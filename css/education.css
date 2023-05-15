@@ -1,0 +1,41 @@
+.education__body {
+  padding-top: 130px;
+  background: linear-gradient(212.69deg, #323E51 4.9%, #1D2532 55.16%);
+  border-radius: 20px;
+}
+
+.education__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 1.3; 
+  padding-bottom: 65px;
+}
+
+.education__list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+};
+
+.education__image {
+  display: block;
+
+}
+
+.education__item {
+  padding: 45px 90px;
+  align-items: center;
+  width: 300px;
+  background: rgba(51, 62, 81, 0.7);
+  backdrop-filter: blur(30.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+}
+
+.education__text {
+  padding-top: 23px;
+  max-width: 262px;
+}
