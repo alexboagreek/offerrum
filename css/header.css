@@ -1,0 +1,36 @@
+.header {
+  background-color:  #1D2532;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__link {
+  font-size: 23px;
+  line-height: 1.2;
+  color: #CECECE;
+  margin-left: 105px;
+}
+
+.header__link:last-child {
+  margin-right: 0;
+}
+
+.header__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  padding: 16px 22px;
+  border-radius: 15px;
+}
