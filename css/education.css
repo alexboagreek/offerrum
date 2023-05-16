@@ -1,7 +1,9 @@
 .education__body {
+  position: relative;
   padding-top: 130px;
   background: linear-gradient(212.69deg, #323E51 4.9%, #1D2532 55.16%);
   border-radius: 20px;
+  margin-bottom: 59px;
 }
 
 .education__title {
@@ -12,30 +14,102 @@
   padding-bottom: 65px;
 }
 
+.education__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 86px;
+  height: 86px;
+  background-image: url('../assets/icons/planet_left.png');
+  transform: rotate(7.77deg);
+  left: 140px;
+  top: 150px;
+}
+
+.education__title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 152px;
+  height: 152px;
+  background-image: url('../assets/icons/purple_spark.png');
+  transform: rotate(7.77deg);
+  left: 1003px;
+  top: -82px;
+}
+
+
+
 .education__list {
     display: grid;
-    justify-items: center;
+    max-width: 650px;
+    padding-left: 320px;
+    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+    padding-bottom: 130px;
 };
 
 .education__image {
-  display: block;
-
+ 
 }
 
 .education__item {
-  padding: 45px 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 45px;
+  padding-bottom: 45px;
   align-items: center;
-  width: 300px;
+  text-align: center;
+  max-width: 300px;
   background: rgba(51, 62, 81, 0.7);
-  backdrop-filter: blur(30.5px);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
   border: 1px solid #ffffff;
+  z-index: 5;
+  cursor: pointer;
 }
 
 .education__text {
+  width: 262px;
+  text-align: center;
   padding-top: 23px;
-  max-width: 262px;
 }
+
+.spark {
+  position: absolute;
+  background: linear-gradient(170.98deg, rgba(95, 56, 255, 0.25) 25.59%, rgba(255, 14, 222, 0.25) 100.44%);
+  filter: blur(86px);
+  transform: rotate(11.97deg);
+  width: 440px;
+  height: 440px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.spark__up {
+  left: 857px;
+  top:0;
+}
+
+.blur__spark {
+  display: block;
+  position: absolute;
+  right: 97px;
+  bottom: 71px;
+  width: 132px;
+  height: 132px;
+  filter: blur(12px);
+  transform: rotate(-25.73deg);
+}
+
+/* .education__sublist {
+  position: absolute;
+  width: 260px;
+  height: 268px;
+  top: 804px;
+  background-color: rgba(51, 62, 81, 0.6);
+  border-radius: 20px;
+  z-index: 3;
+} */
