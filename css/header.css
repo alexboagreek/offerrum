@@ -45,3 +45,26 @@
   padding: 16px 22px;
   border-radius: 15px;
 }
+
+@media (max-width: 380px) {
+  .container {
+    max-width: 380px;
+    padding: 16px;
+  }
+  .header {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .header__list, .header__button {
+    display: none;
+  }
+  .header__blur {
+    display: none;
+  }
+  .header-logo {
+    width: 89px;
+  }
+  .header__button {
+    width: 277px;
+  }
+}

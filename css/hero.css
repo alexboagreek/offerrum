@@ -54,3 +54,45 @@
   border-radius: 20px;
 }
 
+@media (max-width: 380px) {
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .header__blur {
+    width: 278px;
+    height: 278px;
+  }
+  .hero__body {
+    margin-bottom: 0;
+  }
+  .header__list {
+    display: none;
+  }
+  .hero__text {
+    text-align: center;
+  }
+  .hero__title, .hero__subtitle {
+    font-size: 25px;
+  }
+  .hero__title {
+    padding-top: 48px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .hero__subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .hero__title-span {
+    font-size: 25px;
+  }
+
+  .hero__btn {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+}
