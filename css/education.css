@@ -56,22 +56,22 @@
 
 .education__item {
   display: flex;
+  position: relative;
   justify-content: center;
   flex-direction: column;
   padding-top: 45px;
   padding-bottom: 45px;
   align-items: center;
   text-align: center;
-  max-width: 300px;
+  width: 300px;
   background: rgba(51, 62, 81, 0.7);
   border-radius: 20px;
-  border: 1px solid #ffffff;
-  z-index: 5;
+  z-index: 125;
   cursor: pointer;
 }
 
 .education__text {
-  width: 262px;
+  max-width: 262px;
   text-align: center;
   padding-top: 23px;
 }
@@ -83,33 +83,33 @@
   transform: rotate(11.97deg);
   width: 440px;
   height: 440px;
-  left: 0;
-  bottom: 0;
+  left: -310px;
+  bottom: -154px;
   z-index: 1;
 }
 
 .spark__up {
-  left: 857px;
-  top:0;
+  left: 480px;
+  top: -377px;
 }
 
 .blur__spark {
   display: block;
   position: absolute;
-  right: 97px;
-  bottom: 71px;
+  right: -67px;
+  bottom: -36px;
   width: 132px;
   height: 132px;
   filter: blur(12px);
   transform: rotate(-25.73deg);
 }
 
-/* .education__sublist {
+.education__sublist {
   position: absolute;
   width: 260px;
   height: 268px;
-  top: 804px;
+  top: 94px;
   background-color: rgba(51, 62, 81, 0.6);
   border-radius: 20px;
-  z-index: 3;
-} */
+  z-index: -1;
+}
