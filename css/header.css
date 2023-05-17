@@ -46,6 +46,10 @@
   border-radius: 15px;
 }
 
+.header__menu {
+  display: none;
+}
+
 @media (max-width: 380px) {
   .container {
     max-width: 380px;
@@ -66,5 +70,10 @@
   }
   .header__button {
     width: 277px;
+  }
+
+  .header__menu {
+    display: block;
+    width: 40px;
   }
 }

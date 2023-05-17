@@ -65,6 +65,7 @@
     height: 278px;
   }
   .hero__body {
+    flex-direction: column;
     margin-bottom: 0;
   }
   .header__list {
@@ -72,6 +73,7 @@
   }
   .hero__text {
     text-align: center;
+    line-height: -11;
   }
   .hero__title, .hero__subtitle {
     font-size: 25px;
@@ -83,16 +85,29 @@
   }
 
   .hero__subtitle {
+    position: relative;
+    top: 344px;
     font-size: 18px;
     text-align: center;
   }
 
   .hero__title-span {
+    display: block;
+    margin-top: -18px;
+    text-align: center;
     font-size: 25px;
   }
 
   .hero__btn {
+    position: relative;
+    top: 345px;
     font-size: 16px;
     margin-bottom: 50px;
+    width: 277px;
+  }
+
+  .hero__img-item {
+    position: relative;
+    top: -256px;
   }
 }
