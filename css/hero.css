@@ -56,8 +56,7 @@
 
 @media (max-width: 380px) {
   .container {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0;
   }
 
   .hero {
@@ -70,7 +69,7 @@
   }
   .hero__body {
     flex-direction: column;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
   .header__list {
     display: none;
@@ -90,7 +89,7 @@
 
   .hero__subtitle {
     position: relative;
-    top: 344px;
+    top: 300px;
     font-size: 18px;
     text-align: center;
   }
@@ -104,7 +103,7 @@
 
   .hero__btn {
     position: relative;
-    top: 345px;
+    top: 285px;
     font-size: 16px;
     margin-bottom: 50px;
     width: 277px;
