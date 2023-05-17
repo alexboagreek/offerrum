@@ -60,6 +60,10 @@
     padding-bottom: 0;
   }
 
+  .hero {
+    margin-bottom: 70px;
+  }
+
   .header__blur {
     width: 278px;
     height: 278px;

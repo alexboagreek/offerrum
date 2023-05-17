@@ -113,3 +113,44 @@
   border-radius: 20px;
   z-index: -1;
 }
+
+
+@media (max-width: 380px) {
+  .education__list {
+    padding-left: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .education__body {
+    padding-top: 40px;
+  }
+
+  .education__title {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .education__title::before {
+    width: 22px;
+    height: 22px;
+    display: none;
+  }
+
+  .education__title::after {
+    display: none;
+  }
+
+  .education__item {
+    width: 260px;
+    padding-left: 30px;
+  }
+
+  .blur__spark {
+    display: none;
+  }
+
+  .spark {
+    display: none;
+  }
+}
